@@ -88,3 +88,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+.idea/
+data/extra_user_view.txt
+data/user_pay.txt
+data/user_view.txt
