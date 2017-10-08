@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jan 22 22:07:17 2017
+
+@author: Hao Liu
+"""
+#%%
+import time
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib
+from datetime import datetime
+
+user_cols = ['USER_ID','SHOP_ID','TIME_STA']
+user_pay = pd.read_csv('../data/user_pay.txt',header=None, names = user_cols)
